@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is managing the process
+# This script indefinitely writes i am live to my process
 while true
 do
     sudo bash -c "echo \"I am alive!\" >> /tmp/my_process"
